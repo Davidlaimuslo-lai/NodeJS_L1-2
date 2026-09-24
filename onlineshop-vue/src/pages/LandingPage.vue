@@ -74,15 +74,12 @@ video {
 .btn-grad {
         width: 300px;
         height: 50px;
-        margin: 20px auto;
-  
+        margin: 20px auto; 
         display: flex;
         justify-content: center;
-        align-items: center;
-
-        background: linear-gradient(to right, #31546b, #20a9df);
-        border-radius: 15px;
-
+        align-items: center; 
+        background: linear-gradient(to right, #20a9df, #31546b);
+        border-radius: 15px; 
         box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 

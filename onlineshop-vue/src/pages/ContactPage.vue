@@ -69,7 +69,7 @@ function kirimPesan(event) {
 .Judul {
   text-align: center;
   padding: 40px;
-  background: linear-gradient(90deg, #263d8f, #3f51d1);
+  background: linear-gradient(90deg, #315a91, #36b5e8);
   color: white;
 }
 .contact-container {

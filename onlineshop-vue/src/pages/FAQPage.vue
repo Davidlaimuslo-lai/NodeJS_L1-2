@@ -133,48 +133,28 @@ function bukaFAQ(index) {
   width: 65px;
   height: 65px;
   margin: 0 auto 15px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50%;
-
-  background: linear-gradient(
-    135deg,
-    #2563eb,
-    #7c3aed
-  );
-
+  background: linear-gradient(90deg, #315a91, #36b5e8);
   color: white;
-
   font-size: 32px;
   font-weight: bold;
-
   box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
 .faq-header h1 {
   margin: 0;
-
   font-size: 36px;
-
-  background: linear-gradient(
-    90deg,
-    #2563eb,
-    #7c3aed
-  );
-
-    color:white;
+  background: linear-gradient(90deg, #315a91, #36b5e8);
+  color:white;
 }
 
 .faq-header p {
   margin-top: 12px;
-
   color: #64748b;
-
   font-size: 16px;
-
   line-height: 1.6;
 }
 
@@ -211,7 +191,7 @@ function bukaFAQ(index) {
 }
 
 .faq-item.aktif {
-  border-color: #6366f1;
+  background: linear-gradient(90deg, #315a91, #36b5e8);
 }
 
 
@@ -280,7 +260,7 @@ function bukaFAQ(index) {
 .faq-answer {
   padding: 0 20px 20px;
 
-  color: #64748b;
+  color: white;
 
   line-height: 1.7;
 }
@@ -305,11 +285,7 @@ function bukaFAQ(index) {
 
   text-align: center;
 
-  background: linear-gradient(
-    135deg,
-    #2563eb,
-    #7c3aed
-  );
+  background: linear-gradient(90deg, #315a91, #36b5e8);
 
   color: white;
 

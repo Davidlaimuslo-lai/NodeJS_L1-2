@@ -25,7 +25,7 @@
 
       <!-- Gambar di sebelah kanan -->
       <div class="GambarCerita">
-        <img src="/image/topi.jpg" alt="Gambar Cerita" />
+        <img src="/image/yadika.jpg" alt="Gambar Cerita" />
       </div>
     </div>
 
@@ -64,7 +64,7 @@
 .Judul {
   text-align: center;
   padding: 40px;
-  background: linear-gradient(90deg, #263d8f, #3f51d1);
+  background: linear-gradient(90deg, #315a91, #36b5e8);
   color: white;
 }
 
@@ -167,7 +167,7 @@
 
   border-radius: 50%;
 
-  background-color: #4438d8;
+  background: linear-gradient(90deg, #315a91, #36b5e8);
   color: white;
 
   font-size: 20px;

@@ -11,7 +11,7 @@ const daftarProduk = [
   {
     id: 2,
     nama: 'Topi Sekolah',
-    harga: 35000,
+    harga: 25000,
     gambar: '/image/topi.jpg'
   },
   {
@@ -19,6 +19,12 @@ const daftarProduk = [
     nama: 'Tas Sekolah',
     harga: 120000,
     gambar: '/image/tas.jpg'
+  },
+  {
+    id: 4,
+    nama: 'Sepatu Sekolah',
+    harga: 150000,
+    gambar: '/image/sepatu.jpg'
   }
 ]
 </script>
@@ -44,5 +50,6 @@ const daftarProduk = [
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 </style>

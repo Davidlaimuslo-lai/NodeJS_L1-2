@@ -3,8 +3,13 @@
         <div class="Card1">
             <h1>Belanja perlengkapan sekolah, gampang & terpercaya</h1>
             <p>Mulai dari kaos,topi,sampai tas sekolah - semua ada di satu  tempat</p>
-        <button><RouterLink to="/product">Lebih lengkap</RouterLink></button>
+        <div class ="btn-grad"><RouterLink to="/product">Lebih lengkap</RouterLink></div>
     </div>
+   
+    <video controls width="480" muted loop> 
+      <source src="/video/videopromosi.mp4" type="video/mp4" /> 
+      Browser kamu tidak mendukung pemutaran video. 
+    </video>
     <div class="Container">
         <div class="Card">
             <p>🛡️</p>
@@ -28,12 +33,19 @@
 .Card1{
         text-align: center;
         padding: 70px;
-        background: linear-gradient(90deg, #263d8f, #3f51d1);
+        background: linear-gradient(90deg, #315a91, #36b5e8);
         color:white;
         align-items: center;
         box-shadow: 20%;
         border-radius: 10px;
 }
+video { 
+        margin-top: 16px; 
+        border-radius: 10px; 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+} 
 .Card{
         text-align: center;
         padding: 16px;  
@@ -42,7 +54,7 @@
         width: 175px;  
         margin-top: 20px;
         margin-left: 10px;
-        background: linear-gradient(90deg, #263d8f, #3f51d1);
+        background: linear-gradient(90deg, #315a91, #36b5e8);
         color:white;
         box-shadow: 20%;
         justify-content: space-between;
@@ -52,8 +64,32 @@
         justify-content: center;
         align-items: center;
         box-shadow: 20%;
-        align-items: center;
-        background:whitesmoke;
+        align-items: center;    
         margin-top: 20px;
 }
+.btn-grad {
+        background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+}
+
+.btn-grad {
+        width: 300px;
+        height: 50px;
+        margin: 20px auto;
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: linear-gradient(to right, #31546b, #20a9df);
+        border-radius: 15px;
+
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+.btn-grad a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+}
+
 </style>
